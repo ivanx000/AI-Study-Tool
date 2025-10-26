@@ -1,0 +1,82 @@
+.venv/
+
+# General OS / Editor files 
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+# VSCode
+.vscode/
+.idea/
+
+# Root-level environment files
+.env
+.env.local
+.env.*.local
+
+# Backend (Flask / Python)
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.Python
+backend/.venv/
+backend/env/
+backend/venv/
+backend/.pytest_cache/
+backend/instance/
+backend/*.db
+backend/*.sqlite3
+backend/.DS_Store
+
+# Flask / PyInstaller builds
+backend/build/
+backend/dist/
+backend/*.egg-info/
+backend/*.egg
+backend/.mypy_cache/
+
+# Jupyter (just in case)
+*.ipynb_checkpoints
+
+# Frontend (Next.js / Node)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/.turbo/
+frontend/.cache/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/package-lock.json
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Next.js build artifacts
+frontend/.next/
+frontend/.swc/
+frontend/coverage/
+frontend/build/
+
+# Docker (if you add later)
+docker-compose.override.yml
+*.pid
+*.seed
+
+# Misc (macOS / backup files)
+**/.DS_Store
+*.icloud
+*.tmp
+*.temp
+*~
